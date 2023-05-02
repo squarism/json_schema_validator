@@ -21,7 +21,7 @@ Options:
 
 Example documnent included in this repo.
 ```
-$ cargo run -- --schema ./example.schema.json --document ./example.json
+$ json_schema_validator --schema ./example.schema.json --document ./example.json
 $ echo $?
 0
 ```
